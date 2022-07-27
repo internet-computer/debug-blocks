@@ -1,0 +1,16 @@
+{
+    "canisters": {
+        "prod": {
+            "type": "custom",
+            "candid": "./.target/release.did",
+            "wasm": "./.target/release.wasm",
+            "build": "./build.sh release"
+        },
+        "dev": {
+            "type": "custom",
+            "candid": "./.target/debug.did",
+            "wasm": "./.target/debug.wasm",
+            "build": "./build.sh debug"
+        }
+    }
+}
