@@ -1,6 +1,5 @@
 import { debugPrint } = "mo:⛔";
 
-
 actor {
     public func doSomething() : async () {
         // Do some stuff...

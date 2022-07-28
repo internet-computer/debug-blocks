@@ -1,16 +1,13 @@
 {
     "canisters": {
         "prod": {
-            "type": "custom",
-            "candid": "./.target/release.did",
-            "wasm": "./.target/release.wasm",
-            "build": "./build.sh release"
+            "type": "motoko",
+            "main":  "src/main.mo",
+            "args": "--release"
         },
         "dev": {
-            "type": "custom",
-            "candid": "./.target/debug.did",
-            "wasm": "./.target/debug.wasm",
-            "build": "./build.sh debug"
+            "type": "motoko",
+            "main":  "src/main.mo"
         }
     }
 }

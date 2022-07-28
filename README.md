@@ -30,9 +30,3 @@ dfx canister call dev doSomething
 dfx canister call prod doSomething
 # ()
 ```
-
-## DFX, MOC and Vessel Version(s)
-
-Tested with `DFX v0.10.1`, `moc v0.6.28` and `vessel v0.6.3`.
-
-! NOTE: `moc v0.6.29` is not compatible with the replica in `DFX v0.10.1`, the `performance_counter` is not exported by the runtime.
